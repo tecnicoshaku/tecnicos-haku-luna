@@ -231,8 +231,8 @@
                 <img src="https://via.placeholder.com/80" alt="Logo 2" id="logo2">
             </div>
             
-            <h1>CONSTRUTEL HAKU-LUNA</h1>
-            <p>Información Tecnico en Instalaciones</p>
+            <h1>NOMBRE DE TU EMPRESA</h1>
+            <p>Información Confidencial del Empleado</p>
         </div>
         
         <div class="photo-section">
@@ -243,7 +243,7 @@
             <div class="employee-id">Expediente: <span id="employeeId">EMP-001</span></div>
             <div class="employee-meta">
                 <div class="meta-item">
-                    <span class="meta-label">Centro de Trabajo:</span> <span id="workCenter">MARACAS</span>
+                    <span class="meta-label">Centro de Trabajo:</span> <span id="workCenter">Área de Producción</span>
                 </div>
                 <div class="meta-item">
                     <span class="meta-label">Ingreso:</span> <span id="hireDate">15/Enero/2023</span>
@@ -265,7 +265,7 @@
                 
                 <div class="info-item">
                     <div class="info-label">CURP</div>
-                    <div class="info-value" id="curp">PEGJ850315HGRRNN09</div>
+                    <div class="info-value" id="curp"></div>
                 </div>
                 
                 <div class="info-item">
@@ -322,7 +322,7 @@
         
         <div class="footer">
             <p>Documento confidencial - Solo para uso autorizado</p>
-            <p>© 2025 Construtel Haku-Luna. Todos los derechos reservados.</p>
+            <p>© 2024 Nombre de tu Empresa. Todos los derechos reservados.</p>
         </div>
     </div>
 
@@ -344,7 +344,7 @@
             address: "Calle Principal #123, Col. Centro, Ciudad",
             emergencyName: "María Pérez (Esposa)",
             emergencyPhone: "+52 111 222 3333",
-            vehicleInfo: "Chevy - Placas: ABC123",
+            vehicleInfo: "Chevy 2006 - Placas: ABC123",
             toolsInfo: "Kit completo de herramientas profesionales",
             photoUrl: "https://via.placeholder.com/150", // Cambia por la URL real de la foto
             vehiclePhotoUrl: "https://via.placeholder.com/200x150", // Foto del vehículo
@@ -356,8 +356,12 @@
         // No toques el código de abajo, solo cambia los datos arriba
         document.getElementById('employeeName').textContent = employeeData.name;
         document.getElementById('employeeId').textContent = employeeData.id;
+        document.getElementById('workCenter').textContent = employeeData.workCenter;
+        document.getElementById('hireDate').textContent = employeeData.hireDate;
         document.getElementById('username').textContent = employeeData.username;
         document.getElementById('workPhone').textContent = employeeData.workPhone;
+        document.getElementById('curp').textContent = employeeData.curp;
+        document.getElementById('email').textContent = employeeData.email;
         document.getElementById('personalPhone').textContent = employeeData.personalPhone;
         document.getElementById('bloodType').textContent = employeeData.bloodType;
         document.getElementById('address').textContent = employeeData.address;
