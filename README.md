@@ -1,9 +1,16 @@
 🔧 CONSTRUTEL HAKU-LUNA
+<div align="center">
 Sistema de Identificación Digital para Técnicos Instaladores
 <div align="center">
+
+  
 # Hola Chaparrito
 <div align="center">
 # Don Hernan Polanco Martinez 💋
+
+
+
+  
 <div align="center">
 📱 ¿Qué es este sistema?
 Sistema digital de identificación para técnicos instaladores de Construtel Haku-Luna. Cada técnico cuenta con un código QR único en su gafete que permite acceder instantáneamente a su información completa de forma segura.
@@ -15,3 +22,9 @@ Sistema digital de identificación para técnicos instaladores de Construtel Hak
 🎨 Diseño Profesional: Interfaz moderna y fácil de leer
 🚗 Activos Registrados: Información de vehículos y herramientas asignadas
 🆘 Contacto de Emergencia: Datos importantes siempre accesibles
+📝 Mensajes Importantes
+
+NOTA PARA TÉCNICOS: Mantén tu gafete siempre visible y en buen estado. Si pierdes tu gafete, reporta inmediatamente a recursos humanos.
+
+
+ACTUALIZACIÓN DE INFORMACIÓN: Si tus datos personales cambian (teléfono, dirección, contacto de emergencia), notifica de inmediato para actualizar tu perfil.
