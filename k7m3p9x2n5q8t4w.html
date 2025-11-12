@@ -35,28 +35,6 @@
             color: white;
             padding: 30px;
             text-align: center;
-            position: relative;
-        }
-        
-        .logo-container {
-            position: absolute;
-            top: 20px;
-            width: 80px;
-            height: 80px;
-        }
-        
-        .logo-left {
-            left: 20px;
-        }
-        
-        .logo-right {
-            right: 20px;
-        }
-        
-        .logo-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
         }
         
         .header h1 {
@@ -176,10 +154,11 @@
         
         .asset-image {
             width: 100%;
-            height: 150px;
-            object-fit: cover;
+            height: 200px;
+            object-fit: contain;
             border-radius: 8px;
             margin-bottom: 10px;
+            background: white;
         }
         
         .asset-title {
@@ -211,6 +190,27 @@
             font-size: 12px;
         }
         
+        .logos-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            padding: 30px;
+            background: white;
+            flex-wrap: wrap;
+        }
+        
+        .logo-item {
+            width: 120px;
+            height: 120px;
+        }
+        
+        .logo-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
         @media (max-width: 600px) {
             .info-grid {
                 grid-template-columns: 1fr;
@@ -221,32 +221,22 @@
 <body>
     <div class="container">
         <div class="header">
-            <!-- LOGO IZQUIERDO -->
-            <div class="logo-container logo-left">
-                <img src="https://via.placeholder.com/80" alt="Logo 1" id="logo1">
-            </div>
-            
-            <!-- LOGO DERECHO -->
-            <div class="logo-container logo-right">
-                <img src="https://via.placeholder.com/80" alt="Logo 2" id="logo2">
-            </div>
-            
             <h1>CONSTRUTEL HAKU-LUNA</h1>
-            <p>Información Tecnico Instalador</p>
+            <p>Información Técnico Instalador</p>
         </div>
         
         <div class="photo-section">
             <div class="photo-container">
-                <img src="https://via.placeholder.com/150" alt="Foto del empleado" id="employeePhoto">
+                <img src="https://tecnicoshaku.github.io/tecnicos-haku-luna/ADAN_BRITO_VALENCIA.png" alt="Foto del empleado">
             </div>
-            <div class="employee-name" id="employeeName">Juan Pérez García</div>
-            <div class="employee-id">Expediente: <span id="employeeId">EMP-001</span></div>
+            <div class="employee-name">ADAN BRITO VALENCIA</div>
+            <div class="employee-id">Expediente: 879551</div>
             <div class="employee-meta">
                 <div class="meta-item">
-                    <span class="meta-label">Centro de Trabajo:</span> <span id="workCenter">Área de Producción</span>
+                    <span class="meta-label">Centro de Trabajo:</span> MARACAS
                 </div>
                 <div class="meta-item">
-                    <span class="meta-label">Ingreso:</span> <span id="hireDate">15/Enero/2023</span>
+                    <span class="meta-label">Ingreso:</span> DD/Mes/Año
                 </div>
             </div>
         </div>
@@ -255,37 +245,37 @@
             <div class="info-grid">
                 <div class="info-item">
                     <div class="info-label">Usuario</div>
-                    <div class="info-value" id="username">jperez</div>
+                    <div class="info-value">BIVA890803</div>
                 </div>
                 
                 <div class="info-item">
                     <div class="info-label">Celular de Trabajo</div>
-                    <div class="info-value" id="workPhone">+52 123 456 7890</div>
+                    <div class="info-value">744 204 5706</div>
                 </div>
                 
                 <div class="info-item">
                     <div class="info-label">CURP</div>
-                    <div class="info-value" id="curp"></div>
+                    <div class="info-value">BIVA890803HGRRLD01</div>
                 </div>
                 
                 <div class="info-item">
                     <div class="info-label">Correo Electrónico</div>
-                    <div class="info-value" id="email">juan.perez@empresa.com</div>
+                    <div class="info-value">almadelmal400@gmail.com</div>
                 </div>
                 
                 <div class="info-item">
                     <div class="info-label">Celular Personal</div>
-                    <div class="info-value" id="personalPhone">+52 098 765 4321</div>
+                    <div class="info-value">744 257 9118</div>
                 </div>
                 
                 <div class="info-item">
                     <div class="info-label">Tipo de Sangre</div>
-                    <div class="info-value" id="bloodType">O+</div>
+                    <div class="info-value">O+</div>
                 </div>
                 
                 <div class="info-item">
                     <div class="info-label">Dirección</div>
-                    <div class="info-value" id="address">Calle Principal #123, Col. Centro</div>
+                    <div class="info-value">Dirección completa</div>
                 </div>
             </div>
             
@@ -294,11 +284,11 @@
                 <div class="info-grid" style="margin-top: 10px;">
                     <div class="info-item" style="border-left-color: #ffc107;">
                         <div class="info-label">Nombre</div>
-                        <div class="info-value" id="emergencyName">María Pérez</div>
+                        <div class="info-value">Nombre del contacto</div>
                     </div>
                     <div class="info-item" style="border-left-color: #ffc107;">
                         <div class="info-label">Teléfono</div>
-                        <div class="info-value" id="emergencyPhone">+52 111 222 3333</div>
+                        <div class="info-value">+52 XXX XXX XXXX</div>
                     </div>
                 </div>
             </div>
@@ -307,16 +297,25 @@
             
             <div class="assets-grid">
                 <div class="asset-item">
-                    <img src="https://via.placeholder.com/200x150" alt="Vehículo" class="asset-image" id="vehiclePhoto">
+                    <img src="https://tecnicoshaku.github.io/tecnicos-haku-luna/NVB-93-28_ADAN_BRITO_VALENCIA.jpeg" alt="Vehículo" class="asset-image">
                     <div class="asset-title">Vehículo Asignado</div>
-                    <div class="info-value" id="vehicleInfo">Toyota Hilux - ABC123</div>
+                    <div class="info-value">Chevy 2006 - PLACAS NVB-93-28</div>
                 </div>
                 
                 <div class="asset-item">
-                    <img src="https://via.placeholder.com/200x150" alt="Herramientas" class="asset-image" id="toolsPhoto">
+                    <img src="https://via.placeholder.com/200x150" alt="Herramientas" class="asset-image">
                     <div class="asset-title">Equipo y Herramientas</div>
-                    <div class="info-value" id="toolsInfo">Kit completo de herramientas</div>
+                    <div class="info-value">Herramienta Completa</div>
                 </div>
+            </div>
+        </div>
+        
+        <div class="logos-section">
+            <div class="logo-item">
+                <img src="https://tecnicoshaku.github.io/tecnicos-haku-luna/Logo01.png" alt="Logo 1">
+            </div>
+            <div class="logo-item">
+                <img src="https://tecnicoshaku.github.io/tecnicos-haku-luna/hk08.png" alt="Logo 2">
             </div>
         </div>
         
@@ -325,55 +324,5 @@
             <p>© 2025 Construtel Haku-Luna. Todos los derechos reservados.</p>
         </div>
     </div>
-
-    <script>
-        // AQUÍ VAN LOS DATOS DEL EMPLEADO
-        // Copia este archivo y cambia solo estos datos para cada empleado
-        
-        const employeeData = {
-            name: "ADAN BRITO VALENCIA",
-            id: "879551",
-            workCenter: "MARACAS",
-            hireDate: "15/Enero/2023",
-            username: "BIVA890803",
-            workPhone: "+52 744 204 5706",
-            curp: "BIVA890803HGRRLD01",
-            email: "almadelmal400@gmail.com",
-            personalPhone: "+52 744 257 9118",
-            bloodType: "O+",
-            address: "Calle Principal #123, Col. Centro, Ciudad",
-            emergencyName: "María Pérez (Esposa)",
-            emergencyPhone: "+52 744 420 6838",
-            vehicleInfo: "Chevy 2006 - Placas: NVB-93-28",
-            toolsInfo: "Kit completo de herramientas",
-            photoUrl: "https://tecnicoshaku.github.io/tecnicos-haku-luna/ADAN_BRITO_VALENCIA.jpeg", // Cambia por la URL real de la foto
-            vehiclePhotoUrl: "https://tecnicoshaku.github.io/tecnicos-haku-luna/NVB-93-28_ADAN_BRITO_VALENCIA.jpeg", // Foto del vehículo
-            toolsPhotoUrl: "https://via.placeholder.com/200x150", // Foto de herramientas
-            logo1Url: "https://via.placeholder.com/80", // LOGO IZQUIERDO - Cambia por la URL de tu logo
-            logo2Url: "https://via.placeholder.com/80"  // LOGO DERECHO - Cambia por la URL de tu logo
-        };
-        
-        // No toques el código de abajo, solo cambia los datos arriba
-        document.getElementById('employeeName').textContent = employeeData.name;
-        document.getElementById('employeeId').textContent = employeeData.id;
-        document.getElementById('workCenter').textContent = employeeData.workCenter;
-        document.getElementById('hireDate').textContent = employeeData.hireDate;
-        document.getElementById('username').textContent = employeeData.username;
-        document.getElementById('workPhone').textContent = employeeData.workPhone;
-        document.getElementById('curp').textContent = employeeData.curp;
-        document.getElementById('email').textContent = employeeData.email;
-        document.getElementById('personalPhone').textContent = employeeData.personalPhone;
-        document.getElementById('bloodType').textContent = employeeData.bloodType;
-        document.getElementById('address').textContent = employeeData.address;
-        document.getElementById('emergencyName').textContent = employeeData.emergencyName;
-        document.getElementById('emergencyPhone').textContent = employeeData.emergencyPhone;
-        document.getElementById('vehicleInfo').textContent = employeeData.vehicleInfo;
-        document.getElementById('toolsInfo').textContent = employeeData.toolsInfo;
-        document.getElementById('employeePhoto').src = employeeData.photoUrl;
-        document.getElementById('vehiclePhoto').src = employeeData.vehiclePhotoUrl;
-        document.getElementById('toolsPhoto').src = employeeData.toolsPhotoUrl;
-        document.getElementById('logo1').src = employeeData.logo1Url;
-        document.getElementById('logo2').src = employeeData.logo2Url;
-    </script>
 </body>
 </html>
