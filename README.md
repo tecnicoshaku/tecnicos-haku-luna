@@ -43,9 +43,9 @@ Reporta cualquier problema de acceso o información incorrecta
 📞 Soporte y Contacto
 Para reportar problemas o solicitar actualizaciones:
 
-📧 Email: [correo@construtel-hakuna.com]
-📱 Teléfono: [Número de contacto]
-🏢 Oficina: [Dirección física]
+📧 Email: ordenesacapulco@gmail.com
+📱 Teléfono: 744 284 2171
+🏢 Oficina: Calle Bora Bora
 ⏰ Horario: Lunes a Viernes, 8:00 AM - 6:00 PM
 
 
