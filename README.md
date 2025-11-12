@@ -28,3 +28,30 @@ NOTA PARA TÉCNICOS: Mantén tu gafete siempre visible y en buen estado. Si pier
 
 
 ACTUALIZACIÓN DE INFORMACIÓN: Si tus datos personales cambian (teléfono, dirección, contacto de emergencia), notifica de inmediato para actualizar tu perfil.
+👥 Para Técnicos
+¿Cómo usar tu código QR?
+
+Porta siempre tu gafete con el código QR visible
+Verifica que esté en buen estado - sin rayaduras ni dobleces
+Permite que clientes o supervisores lo escaneen cuando sea necesario
+Reporta cualquier problema de acceso o información incorrecta
+
+¿Qué hacer si pierdes tu gafete?
+
+🚨 Reporta inmediatamente a tu supervisor
+📞 Contacta a recursos humanos
+🔄 Se generará un nuevo código QR
+🆕 Recibirás un nuevo gafete
+
+
+📞 Soporte y Contacto
+Para reportar problemas o solicitar actualizaciones:
+
+📧 Email: [correo@construtel-hakuna.com]
+📱 Teléfono: [Número de contacto]
+🏢 Oficina: [Dirección física]
+⏰ Horario: Lunes a Viernes, 8:00 AM - 6:00 PM
+
+
+🔐 Política de Privacidad
+La información contenida en este sistema es confidencial y está protegida. El acceso no autorizado, uso indebido o divulgación de esta información está estrictamente prohibido y puede resultar en acciones legales.
