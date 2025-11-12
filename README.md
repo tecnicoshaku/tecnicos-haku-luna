@@ -1,12 +1,8 @@
+<div align="center">
 🔧 CONSTRUTEL HAKU-LUNA
 <div align="center">
 Sistema de Identificación Digital para Técnicos Instaladores
 <div align="center">
-
-  
-# Hola Chaparrito
-<div align="center">
-# Don Hernan Polanco Martinez 💋
 
 
 
